@@ -1,5 +1,8 @@
 #include <iostream>
 #include <fstream>
+#include <stdlib.h>
+#include <stdio.h>
+#include <string>
 #include "judgeTool.h"
 
 using namespace std;
@@ -14,7 +17,7 @@ void scanning(string infilename, string outfilename) {
     infile >> noskipws;
 
     ofstream ofile;               //定义输出文件
-    ofile.open(outfilename);     //作为输出文件打开
+    ofile.open(outfilename, ios::out | ios::app);     //作为输出文件打开
     ofile << "------------------------------" << "全文扫描输出" << "---------------" << endl;
 
     int totalTable[34] = {0}; // 各词数量统计
@@ -331,10 +334,11 @@ void scanning(string infilename, string outfilename) {
 }
 
 int main() {
-    string infilename = "D:\\cpp\\clion\\lex\\test3.txt";   // 读入的绝对路径
-    string outfilename = "D:\\cpp\\clion\\lex\\out3.txt";   // 写出的绝对路径
+    string infilename = "./test3.txt";   // 读入的绝对路径
+    string outfilename = "./out3.txt";   // 写出的绝对路径
 
     scanning(infilename, outfilename);
+    cout << "success!" << endl;
 
     return 0;
 }
