@@ -1,0 +1,3 @@
+"D:\6\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\lex2.dir/objects.a
+D:\6\mingw64\bin\ar.exe cr CMakeFiles\lex2.dir/objects.a @CMakeFiles\lex2.dir\objects1.rsp
+D:\6\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\lex2.dir/objects.a -Wl,--no-whole-archive  -o lex2.exe -Wl,--out-implib,liblex2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\lex2.dir\linklibs.rsp

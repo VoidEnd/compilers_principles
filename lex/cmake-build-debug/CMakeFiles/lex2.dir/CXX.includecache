@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/cpp/clion/lex/judgeTool.h
+table.h
+D:/cpp/clion/lex/table.h
+
+D:/cpp/clion/lex/main.cpp
+iostream
+-
+fstream
+-
+judgeTool.h
+D:/cpp/clion/lex/judgeTool.h
+
+D:/cpp/clion/lex/table.h
+iostream
+-
+

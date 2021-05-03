@@ -1,0 +1,4 @@
+D:/cpp/clion/lex/cmake-build-debug/CMakeFiles/lex.dir
+D:/cpp/clion/lex/cmake-build-debug/CMakeFiles/lex2.dir
+D:/cpp/clion/lex/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/cpp/clion/lex/cmake-build-debug/CMakeFiles/rebuild_cache.dir
